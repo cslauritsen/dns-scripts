@@ -7,6 +7,6 @@ $TTL 3600 ; 24 hours could have been written as 24h or 1d
       1w ; expire
       3h ; nxdomain ttl
      )
-home.planeauritsen.com.   IN  A      %HOMEIP%
-home.planeauritsen.com.   IN  TXT    %LUPD%
-
+@   IN  NS     new.kimlauritsen.org.
+@   IN  A      %HOMEIP%
+@   IN  TXT    %LUPD%
