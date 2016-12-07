@@ -8,4 +8,5 @@ $TTL 3600 ; 24 hours could have been written as 24h or 1d
       3h ; nxdomain ttl
      )
 home.planeauritsen.com.   IN  A      %HOMEIP%
+home.planeauritsen.com.   IN  TXT    %LUPD%
 
