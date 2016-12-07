@@ -1,0 +1,11 @@
+$TTL 3600 ; 24 hours could have been written as 24h or 1d
+; $TTL used for all RRs without explicit TTL value
+@  1D  IN  SOA new.kimlauritsen.org. noc.planetlauritsen.com. (
+      %SERIAL% ; serial
+      3H ; refresh
+      15 ; retry
+      1w ; expire
+      3h ; nxdomain ttl
+     )
+home.planeauritsen.com.   IN  A      %HOMEIP%
+
